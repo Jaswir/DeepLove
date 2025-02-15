@@ -14,7 +14,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="w-full fixed inset-x-0 px-8">
+    <div className="w-full fixed inset-x-0 md:px-8 bg-white z-50">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
