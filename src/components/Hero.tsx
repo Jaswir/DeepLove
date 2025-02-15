@@ -5,15 +5,17 @@ import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
 import Lottie from "lottie-react";
 import animationData from "../lotties/hero.json";
+import waitlistAnimation from "../lotties/waitlist_animation.json";
+import cuteTextMessageAnimation from "../lotties/textbox-cute.json";
 import { saveEmail } from "../_actions/postAction";
-import {useState } from "react";
+import { useState } from "react";
 
 export const Hero = () => {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
-  const handleGetStarted = async (event: React.MouseEvent<HTMLButtonElement>)  => {
+  const handleGetStarted = async (event: React.MouseEvent<HTMLButtonElement>) => {
 
     console.log("handleGetStarted");
     event.preventDefault();
@@ -57,6 +59,7 @@ export const Hero = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
+
                 <button
                   className="px-6 py-3 text-lg font-medium text-white bg-pink-500 rounded-md hover:bg-pink-600"
                   onClick={handleGetStarted}
@@ -65,8 +68,14 @@ export const Hero = () => {
                   {loading ? "Submitting..." : "Get Started"}
                 </button>
                 {message && <p className="text-sm text-gray-600">{message}</p>}
+                <Lottie
+                  animationData={waitlistAnimation}
+                  loop={true} // Set to false if you want it to play only once
+                  className="w-96 md:w-1/5 object-cover"
+                />
               </div>
             </div>
+
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -77,7 +86,13 @@ export const Hero = () => {
               // className="w-[616px] h-[617px] object-cover"
               className="w-96 md:w-4/5 object-cover"
             />
+       
           </div>
+          <Lottie
+              animationData={cuteTextMessageAnimation}
+              loop={true} // Set to false if you want it to play only once
+              className="w-32  "
+            />
         </div>
       </Container>
       <Container>
