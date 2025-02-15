@@ -11,50 +11,49 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "DeepLove Dating Assistant",
+  desc: "Navigate dating conversations effortlessly with DeepLove. Our smart assistant helps you respond smoothly, flirt confidently, and avoid awkward silences.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "No More Awkward Silences",
+      desc: "DeepLove suggests the perfect reply to keep the conversation flowing.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Boost Your Dating Confidence",
+      desc: "Practice conversations and improve your skills before the real date.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Master the Art of Flirting",
+      desc: "Get DeepLove-crafted responses tailored to your personality and style.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Take Your Dating Game to the Next Level",
+  desc: "More than just conversation help—DeepLove makes dating easier, smoother, and more fun.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Save Time & Avoid Overthinking",
+      desc: "DeepLove helps you craft smooth responses without second-guessing yourself.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Detect Red Flags Early",
+      desc: "DeepLove analyzes messages to spot sketchy or manipulative behavior.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Adapt to Any Dating Style",
+      desc: "Whether playful, deep, or flirty—DeepLove helps you navigate every conversation.",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };

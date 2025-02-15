@@ -23,12 +23,12 @@ export const Navbar = () => {
                 <Image
                   src="/img/logo.svg"
                   width="32"
-                  alt="N"
+                  alt="D"
                   height="32"
                   className="w-8"
                 />
               </span>
-            <span>Nextly</span>
+            <span>DeepLove</span>
           </span>
         </Link>
 

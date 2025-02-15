@@ -13,45 +13,41 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="DeepLove"
+        title="Why You Need DeepLove to Improve Your Dating Life"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Struggling with dating conversations? DeepLove helps you navigate any interaction smoothly—whether it's on dating apps or in person.
+        Get real-time suggestions, improve your flirting skills, and say the right thing at the right time.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="See It in Action"
+        title="How DeepLove Helps You Master Dating Conversations"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Watch this quick demo to see how DeepLove crafts perfect responses, detects red flags, and helps you build deeper connections.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        preTitle="Real Success Stories"
+        title="How People Are Winning at Dating with DeepLove"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Don't just take our word for it—see how our users are improving their dating lives, gaining confidence, and securing more meaningful connections.
       </SectionTitle>
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle preTitle="FAQs" title="Got Questions? We've Got Answers">
+        Curious about how DeepLove can improve your dating game? Check out some common questions and learn how our tool works.
       </SectionTitle>
 
       <Faq />
       <Cta />
     </Container>
+
   );
 }
