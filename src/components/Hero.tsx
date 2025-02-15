@@ -10,9 +10,9 @@ import animationData from "../lotties/hero.json";
 export const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap ">
+      <Container className="flex flex-wrap pt-48">
         <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
+          <div className="max-w2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Get You a Girlfriend – DeepLove Dating Assistant
             </h1>
@@ -54,7 +54,8 @@ export const Hero = () => {
             <Lottie
               animationData={animationData}
               loop={true} // Set to false if you want it to play only once
-              className="w-[616px] h-[617px] object-cover"
+              // className="w-[616px] h-[617px] object-cover"
+              className="w-96 md:w-4/5 object-cover"
             />
           </div>
         </div>
