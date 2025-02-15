@@ -8,7 +8,7 @@ import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
-
+import { Myths } from "@/components/Myths";
 import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
   return (
@@ -43,12 +43,12 @@ export default function Home() {
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQs" title="Got Questions? We've Got Answers">
-        Curious about how DeepLove can improve your dating game? Check out some common questions and learn how our tool works.
+      <SectionTitle preTitle="Myths and FAQs" title="Myths and Facts About AI-Powered Dating">
+        Wondering how DeepLove can transform your dating experience? Explore the truth behind common myths and discover how our AI tool helps you build meaningful connections effortlessly.
       </SectionTitle>
+      <Myths />
 
-      <Faq />
-      <Cta /> 
+      <Cta />
     </>
   );
 }

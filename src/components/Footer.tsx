@@ -34,21 +34,7 @@ export function Footer() {
               And its completely open-source.
             </div>
 
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
+          
           </div>
 
           <div>
@@ -115,16 +101,15 @@ export function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
+            BTAJI - CREW.
           </a>{" "}
-          Illustrations from{" "}
+          {/* Illustrations from{" "}
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
             Glazestock
-          </a>
+          </a> */}
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
     </div>
   );
 }

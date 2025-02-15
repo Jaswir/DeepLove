@@ -12,43 +12,39 @@ export const Testimonials = () => {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            <p className="text-xl leading-normal ">
+              DeepLove completely transformed my dating life. The AI suggestions helped me <Mark>break the ice</Mark> and keep conversations flowing naturally. I went from awkward silences to meaningful connections in no time!
             </p>
-
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Mia Thompson"
+              title="Single Mom"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+            <p className="text-xl leading-normal ">
+              I was skeptical about AI dating tools, but DeepLove proved me wrong. It helped me <Mark>craft the perfect messages</Mark> and even gave me tips for my first date. Now, I’m in a happy relationship—thanks to DeepLove!
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Ethan Patel"
+              title="Graphic Designer"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+            <p className="text-xl leading-normal ">
+              DeepLove is a game-changer! The real-time suggestions helped me <Mark>avoid ghosting</Mark> and turn casual chats into real connections. It’s like having a dating coach in your pocket—highly recommend!
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Alex Martinez"
+              title="Marketing College Student"
             />
           </div>
         </div>
