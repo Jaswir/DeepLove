@@ -16,7 +16,7 @@ export default function Home() {
         preTitle="DeepLove"
         title="Why You Need DeepLove to Improve Your Dating Life"
       >
-        Struggling with dating conversations? DeepLove helps you navigate any interaction smoothly—whether it's on dating apps or in person.
+        Struggling with dating conversations? DeepLove helps you navigate any interaction smoothly—whether it&apos;s on dating apps or in person.
         Get real-time suggestions, improve your flirting skills, and say the right thing at the right time.
       </SectionTitle>
 
@@ -36,7 +36,7 @@ export default function Home() {
         preTitle="Real Success Stories"
         title="How People Are Winning at Dating with DeepLove"
       >
-        Don't just take our word for it—see how our users are improving their dating lives, gaining confidence, and securing more meaningful connections.
+        Don&apos;t just take our word for it—see how our users are improving their dating lives, gaining confidence, and securing more meaningful connections.
       </SectionTitle>
 
       <Testimonials />
