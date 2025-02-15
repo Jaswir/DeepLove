@@ -4,16 +4,17 @@ import {
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
+  FlagIcon,
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../lotties/dating_game.json";
+import benefitTwoImg from "../lotties/dog_lottie.json";
 
 const benefitOne = {
   title: "DeepLove Dating Assistant",
   desc: "Navigate dating conversations effortlessly with DeepLove. Our smart assistant helps you respond smoothly, flirt confidently, and avoid awkward silences.",
-  image: benefitOneImg,
+  animation: benefitOneImg,
   bullets: [
     {
       title: "No More Awkward Silences",
@@ -36,7 +37,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "Take Your Dating Game to the Next Level",
   desc: "More than just conversation help—DeepLove makes dating easier, smoother, and more fun.",
-  image: benefitTwoImg,
+  animation: benefitTwoImg,
   bullets: [
     {
       title: "Save Time & Avoid Overthinking",
@@ -46,7 +47,7 @@ const benefitTwo = {
     {
       title: "Detect Red Flags Early",
       desc: "DeepLove analyzes messages to spot sketchy or manipulative behavior.",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <FlagIcon />,
     },
     {
       title: "Adapt to Any Dating Style",

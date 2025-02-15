@@ -18,21 +18,17 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/love_arrow.svg"
                   alt="N"
                   width="32"
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>Deeplove</span>
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
-            </div>
+
 
           
           </div>
@@ -101,7 +97,7 @@ export function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            BTAJI - CREW.
+            GEN R1 .
           </a>{" "}
           {/* Illustrations from{" "}
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">

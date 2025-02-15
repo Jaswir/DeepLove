@@ -18,10 +18,10 @@ export const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-600 dark:text-gray-100">
             <span>
               <Image
-                src="/img/logo.svg"
+                src="/img/love_arrow.svg"
                 width="32"
                 alt="D"
                 height="32"
@@ -36,7 +36,7 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
           <ThemeChanger />
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            <Link href="/" className="px-6 py-2 text-white bg-pink-400 rounded-md md:ml-5">
               Get Started
             </Link>
           </div>
@@ -75,7 +75,7 @@ export const Navbar = () => {
                       {item}
                     </Link>
                   ))}
-                  <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                  <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-pink-400 rounded-md lg:ml-5">
                     Get Started
                   </Link>
                 </>

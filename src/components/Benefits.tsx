@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import { Container }  from "@/components/Container";
+import Lottie from "lottie-react";
+import dating_game from "../lotties/dating_game.json";
+import dog_lottie from "../lotties/dog_lottie.json";
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
@@ -8,7 +11,7 @@ interface BenefitsProps {
     imgPos?: "left" | "right";
     title: string;
     desc: string;
-    image: any;
+    animation: any;
     bullets: {
       title: string;
       desc: string;
@@ -25,7 +28,13 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}>
           <div>
-            <Image
+            <Lottie
+              animationData={data.animation}
+              loop={true} // Set to false if you want it to play only once
+              // className="w-[616px] h-[617px] object-cover"
+              className="w-96 md:w-4/5 object-cover"
+            />
+            {/* <Image
               src={data.image}
               width={521}
               height={521}
@@ -33,7 +42,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
               className={"object-cover"}
               placeholder="blur"
               blurDataURL={data.image.src}
-            />
+            /> */}
           </div>
         </div>
 
@@ -68,7 +77,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
 function Benefit(props: any) {
   return (
       <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-pink-400 rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
             className: "w-7 h-7 text-indigo-50",
           })}

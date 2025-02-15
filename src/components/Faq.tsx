@@ -45,6 +45,11 @@ const faqdata = [
       "Yes! AI can detect when a conversation is losing momentum and provide tips to keep it alive. It can also help you craft thoughtful follow-up messages to reduce the chances of being ghosted.",
   },
   {
+    question: "What If I Don’t Like the AI’s Suggestions?",
+    answer:
+      "AI tools are designed to assist, not dictate. You’re always in control and can choose to ignore or modify any suggestions that don’t feel right.",
+  },
+  {
     question: "Is AI Biased in Dating Advice?",
     answer:
       "Reputable AI tools are trained on diverse datasets to minimize bias. However, it’s important to use your judgment and ensure the advice aligns with your values and intentions.",
