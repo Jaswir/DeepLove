@@ -6,7 +6,7 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    { name: "Demo", href: "/demo" },
+    { name: "Demo", href: "https://deep-love-gen-r1.streamlit.app/" },
     { name: "Features", href: "/" },
     { name: "Pricing", href: "/" },
     { name: "Company", href: "/" },
