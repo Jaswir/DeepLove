@@ -44,12 +44,23 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              DeepLove AI Assistant <span className="text-pink-400">Gets you a girlfriend</span>
+              DeepLove AI Assistant: <span className="text-pink-400">Your Ultimate Wingman for Meaningful Connections</span>
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Struggling with dating conversations? DeepLove helps you say the right thing, flirt effortlessly, and turn chats into real connections.
-              No more ghosting, awkward silences, or missed chances—just smooth conversations and better dates.
+              <span className="font-bold text-pink-500">Struggling with dating conversations?</span>  
+              <br />
+              <span className="text-gray-700 dark:text-gray-200">DeepLove helps you</span>  
+              <span className="font-bold"> say the right thing, flirt effortlessly,</span>  
+              and <span className="font-bold text-pink-500">turn chats into real connections.</span>  
+              <br /><br />
+              <span className="text-gray-700 dark:text-gray-200">No more</span>  
+              <span className="font-bold text-red-500"> ghosting, awkward silences, or missed chances</span>—just  
+              <span className="font-bold text-green-500"> smooth conversations and better dates.</span>
             </p>
+            <div className="inline-flex justify-center items-center gap-2 border-4 border-indigo-900 rounded-lg  px-2 w-fit">
+              <p className="text-xl text-center text-black-700 dark:text-white">Powered by Deepseek</p>
+              <DeepseekLogo />
+            </div>
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
                 <input
@@ -73,6 +84,7 @@ export const Hero = () => {
                   loop={true} // Set to false if you want it to play only once
                   className="w-96 md:w-1/5 object-cover hidden lg:block"
                 />
+                
               </div>
             </div>
 
@@ -103,10 +115,7 @@ export const Hero = () => {
             customers worldwide
           </div>
 
-          <div className="inline-flex justify-center items-center gap-2 border-4 border-indigo-900 rounded-lg  p-1 px-2 w-fit">
-            <p className="text-xl text-center text-black-700 dark:text-white">Powered by Deepseek</p>
-            <DeepseekLogo />
-          </div>
+          
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
 
             <div className="pt-2 text-gray-400 ">
