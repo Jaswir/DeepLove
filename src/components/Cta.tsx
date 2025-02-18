@@ -50,7 +50,7 @@ export const Cta = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-4 py-3 text-lg border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400"
+              className="px-4 py-3 text-lg text-pink-500 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400 placeholder-gray-500"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />

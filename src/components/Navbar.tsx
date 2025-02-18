@@ -35,10 +35,10 @@ export const Navbar = () => {
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link href="/login" className="px-6 py-2 hover:text-pink-500 rounded-md md:ml-5">
+            <Link href="/" className="px-6 py-2 hover:text-pink-500 rounded-md md:ml-5">
               Login
             </Link>
-            <Link href="/signup" className="px-6 py-2 text-white bg-pink-500 hover:bg-pink-600 rounded-md md:ml-5">
+            <Link href="/" className="px-6 py-2 text-white bg-pink-500 hover:bg-pink-600 rounded-md md:ml-5">
               Sign Up
             </Link>
           </div>
